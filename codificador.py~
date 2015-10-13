@@ -261,7 +261,7 @@ for i in range(0, len(binCode)):
 print "\nLa entropia del codigo plano es " + repr(sum2) 
 print "El tamaño del archivo " + biText + " es de " + repr(a2) + " bits" 
 
-print "\n La razon entre las dos entropias es: " + repr(sum1/sum2)
+print "\nLa razon entre las dos entropias es: " + repr(sum1/sum2)
 print "La razon entre el tamaño de ambos archivos es: " + repr(a1/a2)
 
 print "\nLa diferencia entre ambas razones es: " + repr((sum1/sum2)-(a1/a2))

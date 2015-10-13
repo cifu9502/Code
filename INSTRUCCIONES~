@@ -1,0 +1,28 @@
+1- El libro que se comprimió es Harry Potter 2, que se encuentra guardado con el nombre de hp.txt. 
+
+2- En caso de querer comprimir/descomprimir otro archivo ingrese en los códigos codificador.py y decodificador.py y cambie 
+   en la línea 16 (o cerca) la variable book por la dirección del otro libro que deseea comprimir/descomprimir
+
+3- Para comprimir el archivo ejecute en la terminal el comando :
+
+	python codificador.py
+
+   El programa creará los archivos codigo_huffman_nombre_texto.txt , codigo_plano_nombre_texto.txt  que contienen los códigos correspondientes
+   a cada letra. También creará comp_plano_nombre_texto.txt y comp_plano_nombre_texto.txt donde se encuentran los archivos en bits. Lo mas 
+   probable es que gedit no pueda abrir estos archivos ya que no tiene espacios, pero se pueden abrir en la terminal usando
+   cat <nombre_archivo>.
+
+   Al concluir la ejecución el programa escribirá en la terminal las entropía relativas a cada código , el tamaño del archivo
+   y las relaciones correspondientes entre entropías y tamaños
+
+4- Para descomprimir el archivo ejecute en la terminal el comando :
+
+	python decodificador.py
+
+   El programa creará los archivos  decomp_huffman_nombre_texto.txt y decomp_plano_nombre_texto.txt con ambos códigos descomprimidos.
+   Deben lucir similares al archivo original. En este caso hp.txt
+
+5- Se ha incluido el código completo en ipython con todos los detalles con el nombre de Codificador.ipynb el cual se puede ver en un cuaderno
+   de ipython o en el siguiente link 
+	
+	http://nbviewer.ipython.org/github/cifu9502/Code/blob/master/Codificador.ipynb
